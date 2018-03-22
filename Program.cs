@@ -19,7 +19,7 @@ namespace ConsoleApp6
         {
             var path = @"C:\Users\john\Desktop\test1";
 
-            using (var image = new MagickImage($@"{path}/E90q8lGw2T1Ym7lI.png"))
+            using (var image = new MagickImage($@"{path}/Steganography_original.png"))
             {
                 var pixels = image.GetPixels();
                 for (int i = 0; i < image.Width; i++)
