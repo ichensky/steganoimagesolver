@@ -1,0 +1,1 @@
+Extract image from image using bit flipping. 
